@@ -8742,6 +8742,10 @@ div[class^='bg-spring-red'].fullscreen-menu .fm-wrapper .fm-close span:after, di
   background: black;
 }
 
+.header.purple {
+  background: #6667ab;
+}
+
 @media (min-width: 992px) {
   .header .header-menu {
     height: 80px;
