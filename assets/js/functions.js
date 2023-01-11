@@ -676,7 +676,7 @@ $("#contactform").on("submit", function(e) {
 
   else {
     $.ajax({
-      url:"assets/php/contact-form.php",
+      url:"../assets/php/contact-form.php",
       data:$(this).serialize(),
       type:"POST",
       success:function(data){
